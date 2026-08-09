@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://c73354xmj1q8"]
+
+[ext_resource type="Script" uid="uid://bvidqoe74q648" path="res://scripts/player.gd" id="2_sugp2"]
+[ext_resource type="Texture2D" uid="uid://lgotlmbv3swy" path="res://sprites/baby-blob.png" id="3_sugp2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wfyh"]
+size = Vector2(69, 63)
+
+[node name="Main" type="Node2D" unique_id=1841149290]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1947875677]
+position = Vector2(0, -2)
+scale = Vector2(3, 3)
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=292958272]
+script = ExtResource("2_sugp2")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=87911929]
+scale = Vector2(3, 3)
+texture = ExtResource("3_sugp2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1249787866]
+position = Vector2(1.5, 7.5)
+shape = SubResource("RectangleShape2D_0wfyh")
