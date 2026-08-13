@@ -1,23 +1,19 @@
 extends CharacterBody2D
 
-var speed = 200
+const speed = 200
 
 func _physics_process(delta: float) -> void:
 	var direction = Vector2.ZERO
 
-	if Input.is_action_pressed("ui_right"):
-		$Sprite2D.flip_h = false
+	if Input.is_action_pressed("Right"):
 		direction.x += 1
-	if Input.is_action_pressed("ui_left"):
-		$Sprite2D.flip_h = true
+	if Input.is_action_pressed("Left"):
 		direction.x -= 1
-	if Input.is_action_pressed("ui_down"):
+	if Input.is_action_pressed("Down"):
 		direction.y += 1
-	if Input.is_action_pressed("ui_up"):
+	if Input.is_action_pressed("Up"):
 		direction.y -= 1
 
-	position.x = clamp(position.x, 0, 1152)
-	position.y = clamp(position.y, 0, 648)
-
+	direction = direction.normalized()
 	velocity = direction * speed
 	move_and_slide()
