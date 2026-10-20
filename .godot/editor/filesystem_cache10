@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1787465499
+::res://::1788678249
 README.md::TextFile::-1::1786180196::0::1::::<><><>0<>0<><>::
 ::res://addons/::1786267313
 ::res://addons/godot_super-wakatime/::1786177487
@@ -10,10 +10,12 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1786177486::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1786177486::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1786177486::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1786177486::0::1::::<>RefCounted<><>0<>0<><>::
-::res://scenes/::1787416213
-main.tscn::PackedScene::208189474994043217::1787416213::0::1::::<><><>0<>0<><>::uid://btqnfco3tv5r8::::res://tilesets/tile_placeholder.png<>uid://cbujwvt18jano::::res://sprites/Player.png<>uid://bvidqoe74q648::::res://scripts/player.gd
-::res://scripts/::1787455798
-character.gd::GDScript::5647254367797692116::1787455798::0::1::::Character<>Resource<><>0<>0<><>::
+::res://scenes/::1787484804
+main.tscn::PackedScene::208189474994043217::1787484804::0::1::::<><><>0<>0<><>::uid://btqnfco3tv5r8::::res://tilesets/tile_placeholder.png<>uid://dprvdmotld7lx::::res://scripts/main.gd<>uid://cbujwvt18jano::::res://sprites/Player.png<>uid://bvidqoe74q648::::res://scripts/player.gd<>uid://be5x6r33k08u3::::res://scripts/bloodline.gd
+::res://scripts/::1788667358
+bloodline.gd::GDScript::2730560178749757104::1788593003::0::1::::<>Node<><>0<>0<><>::
+character.gd::GDScript::5647254367797692116::1787497242::0::1::::Character<>Resource<><>0<>0<><>::
+main.gd::GDScript::8248470194484207157::1788667358::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript::3877112888804509767::1787405626::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://sprites/::1787328323
 Player.png::CompressedTexture2D::4884904640073647136::1787224025::1787228439::1::::<><><>0<>0<>1059f5850d646d1e306172b6631c2af3<>res://.godot/imported/Player.png-6ad97dc0d7d497fbd410dec4a2441102.ctex::

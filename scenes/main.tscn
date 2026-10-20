@@ -1,8 +1,10 @@
 [gd_scene format=4 uid="uid://c73354xmj1q8"]
 
 [ext_resource type="Texture2D" uid="uid://btqnfco3tv5r8" path="res://tilesets/tile_placeholder.png" id="1_sugp2"]
+[ext_resource type="Script" uid="uid://dprvdmotld7lx" path="res://scripts/main.gd" id="1_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://cbujwvt18jano" path="res://sprites/Player.png" id="2_0wfyh"]
 [ext_resource type="Script" uid="uid://bvidqoe74q648" path="res://scripts/player.gd" id="2_sugp2"]
+[ext_resource type="Script" uid="uid://be5x6r33k08u3" path="res://scripts/bloodline.gd" id="2_tefeu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
 texture = ExtResource("1_sugp2")
@@ -303,6 +305,10 @@ animations = [{
 size = Vector2(42, 69)
 
 [node name="Main" type="Node2D" unique_id=1841149290]
+script = ExtResource("1_tbgi4")
+
+[node name="Bloodline" type="Node" parent="." unique_id=72483188]
+script = ExtResource("2_tefeu")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1947875677]
 position = Vector2(0, -2)

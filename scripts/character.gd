@@ -6,7 +6,7 @@ extends Resource
 @export var is_alive: bool = true
 @export var death_cause: String = ""
 @export var age: float = 0.0
-@export var energy: int = 0
+@export var energy: int = 200
 @export var traits: Dictionary = {}
 @export var major_events: Array[String] = []
 
