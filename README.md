@@ -12,7 +12,7 @@ A 2D game I'm making in Godot. Right now it's early days: a player you can walk 
 
 ---
 
-**Status:** In progress
+> **Status: in progress.** It's early days. There's a walkable player and a tile map so far, and the generations system is just getting started.
 
 ## What is it?
 
