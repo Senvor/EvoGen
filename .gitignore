@@ -1,5 +1,7 @@
-# gcc coverage testing tool files
+# Godot 4+ specific ignores
+.godot/
+/android/
 
-*.gcno
-*.gcda
-*.gcov
+# OS / editor
+.DS_Store
+Thumbs.db
